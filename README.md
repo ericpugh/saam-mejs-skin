@@ -1,6 +1,8 @@
-#SAAM MediaElement.js Skin 
+# SAAM MediaElement.js Skin
 
 SAAM MediaElement.js custom skin/theme
+
+View [demo](https://ericpugh.github.io/saam-mejs-skin/)
 
 ## Setup
 
@@ -20,3 +22,4 @@ Run `gulp` to build the skin, which in css/skin/saam-mejs-skin.min.css
 - `gulp sass` compiles SCSS files into CSS
 - `gulp minify-css` minifies the compiled CSS file
 - `gulp vendor` copies dependencies from node_modules to the vendor directory
+
