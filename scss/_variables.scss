@@ -1,0 +1,73 @@
+// Default player variables
+
+// General player styles
+$mejs-font-family: 'Helvetica', Arial, serif;
+$mejs-text-align: left;
+
+// Container styles
+$mejs-container-background-color: #000;
+
+// Button Sytles
+$mejs-overlay-btn-background: url('mejs-controls.svg') no-repeat;
+$mejs-overlay-btn-background-position: 0 -39px;
+$mejs-overlay-btn-width: 80px;
+$mejs-overlay-btn-height: 80px;
+// Loading button
+$mejs-overlay-loading-btn-background: transparent url('mejs-controls.svg') -160px -40px no-repeat;
+$mejs-overlay-loading-btn-width: 80px;
+$mejs-overlay-loading-btn-height: 80px;
+
+// Control bar
+$mejs-controls-width: 100%;
+$mejs-controls-height: 40px;
+$mejs-controls-margin: 0;
+$mejs-controls-padding: 0 10px;
+$mejs-controls-position: absolute;
+$mejs-controls-background: rgba(255, 0, 0, 0.7);
+$mejs-controls-background-gradient: linear-gradient(transparent, rgba(0, 0, 0, 0.35));
+// Control bar elements (buttons, time, progress bar)
+$mejs-controls-elements-font-size: 10px;
+$mejs-controls-elements-line-height: 10px;
+$mejs-controls-elements-height: 40px;
+$mejs-controls-elements-width: 32px;
+$mejs-controls-elements-margin: 0;
+$mejs-controls-buttons-background: transparent url('mejs-controls.svg');
+$mejs-controls-buttons-height: 20px;
+$mejs-controls-buttons-width: 20px;
+// Play/Pause/Replay
+$mejs-controls-play-background-position: 0 0;
+$mejs-controls-pause-background-position: -20px 0;
+$mejs-controls-replay-background-position: -160px 0;
+// Progress bar
+$mejs-controls-progress-height: 10px;
+// Adjust the size/color of the slider handle
+$mejs-controls-progress-handle-border: 4px solid rgba(255, 255, 255, 0.9);
+$mejs-controls-progress-handle-border-radius: 50%;
+$mejs-controls-progress-handle-height: 10px;
+$mejs-controls-progress-handle-width: 10px;
+$mejs-controls-progress-handle-top: -4px;
+$mejs-controls-progress-handle-left: -7px;
+$mejs-controls-progress-background: rgba(255, 255, 255, 0.3);
+// Time
+$mejs-controls-time-color: #FFF;
+$mejs-controls-time-font-size: 11px;
+$mejs-controls-time-font-weight: bold;
+$mejs-controls-time-padding: 16px 6px 0;
+// Time rail
+$mejs-controls-time-rail-height: 40px;
+$mejs-controls-time-rail-margin: 0 10px;
+$mejs-controls-time-rail-padding-top: 10px;
+// Time float bubble
+$mejs-controls-time-bubble-border: solid 1px #333;
+$mejs-controls-time-bubble-background: #EEE;
+$mejs-controls-time-bubble-color: #111;
+$mejs-controls-time-bubble-height: 17px;
+$mejs-controls-time-bubble-width: 36px;
+// Mute/Unmute
+$mejs-controls-mute-position: -60px 0;
+$mejs-controls-unmute-position: -40px 0;
+// Volume bar
+$mejs-controls-volume-bar-border-radius: 2px;
+$mejs-controls-volume-bar-foreground-color: rgba(255, 255, 255, 0.8);
+$mejs-controls-volume-bar-background-color: rgba(50, 50, 50, 0.8);
+

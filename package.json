@@ -1,0 +1,27 @@
+{
+    "title": "SAAM MediaElement.js Skin",
+    "name": "saam-mejs-skin",
+    "version": "1.0.0",
+    "description": "SAAM MediaElement.js custom skin",
+    "homepage": "https://github.com/ericpugh/mejs-saam-skin",
+    "bugs": {
+        "url": "https://github.com/ericpugh/mejs-saam-skin/issues",
+        "email": "pughe@si.edu"
+    },
+    "license": "MIT",
+    "author": "Pugh, Eric",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ericpugh/mejs-saam-skin.git"
+    },
+    "dependencies": {
+        "mediaelement": "^4.2.9"
+    },
+    "devDependencies": {
+        "gulp": "^3.9.1",
+        "gulp-clean-css": "3.9.2",
+        "gulp-rename": "^1.2.2",
+        "gulp-sass": "^3.2.1",
+        "gulp-uglify": "3.0.0"
+    }
+}

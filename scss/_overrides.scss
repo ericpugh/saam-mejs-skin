@@ -1,0 +1,55 @@
+// Override default variables here.
+// Copy variables from ./_variables.scss into this file and customize.
+
+// SAAM Skin Color Palette
+$white: #FFF !default;
+$black: #000 !default;
+$off-white: #EFEFEF;
+$off-black:  #222222;
+$gray-dark: #333;
+$gray-medium: #999;
+$gray: #768692;
+$gray-light: #EFEFEF;
+$blue-dark: #3155a4;
+$blue-medium: #5a77b6;
+$blue: #7a91c4;
+$blue-light: #a3b3d6;
+
+// Default variables form _variables.scss.
+$mejs-font-family: "Roboto","Avenir Next","Helvetica Neue",Helvetica,Arial,sans-serif;
+$mejs-container-background-color: $off-black;
+$mejs-container-border: 1px solid $gray-dark;
+$mejs-container-height: 80px;
+$mejs-controls-height: 50px;
+$mejs-controls-margin: 0;
+$mejs-controls-padding: 20px;
+$mejs-controls-position: inherit;
+$mejs-controls-background-gradient: none;
+
+$mejs-controls-elements-font-size: 20px;
+$mejs-controls-elements-line-height: 15px;
+
+$mejs-controls-time-font-weight: 200;
+$mejs-controls-time-font-size: 15px;
+$mejs-controls-time-padding: 12px 6px 0;
+
+$mejs-controls-progress-height: 20px;
+$mejs-controls-progress-handle-border: 5px solid $white;
+$mejs-controls-progress-handle-border-radius: 0;
+$mejs-controls-progress-handle-height: 30px;
+$mejs-controls-progress-handle-width: 5px;
+$mejs-controls-progress-handle-top: -8px;
+$mejs-controls-progress-handle-left: -10px;
+$mejs-controls-progress-background: $gray;
+
+$mejs-controls-time-rail-padding-top: 4px;
+
+$mejs-controls-time-bubble-border: solid 1px $gray-dark;
+$mejs-controls-time-bubble-background: $off-white;
+$mejs-controls-time-bubble-color: $off-black;
+$mejs-controls-time-bubble-height: 30px;
+$mejs-controls-time-bubble-width: 100px;
+
+$mejs-controls-volume-bar-border-radius: 0;
+$mejs-controls-volume-bar-foreground-color: $gray-light;
+$mejs-controls-volume-bar-background-color: $gray;

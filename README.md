@@ -2,10 +2,18 @@
 
 SAAM MediaElement.js custom skin/theme
 
-Create your own override variables, and
-run `gulp` from the root directory to get start
+## Setup
+
+Run `npm install` to install dependencies
+
+## Customize
+
+Copy the contents of scss/_variables.scss to scss/_overrides.scss and customize.
+
 
 ## Gulp Tasks
+
+Run `gulp` to build the skin, which in css/skin/saam-mejs-skin.min.css
 
 - `gulp` the default task
 - `gulp dev` listens for changes to SCSS and JS files, and rebuilds when changes are made
