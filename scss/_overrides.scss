@@ -15,7 +15,7 @@ $blue-medium: #5a77b6;
 $blue: #7a91c4;
 $blue-light: #a3b3d6;
 
-// Default variables form _variables.scss.
+// Override variables form _variables.scss.
 $mejs-font-family: "Roboto","Avenir Next","Helvetica Neue",Helvetica,Arial,sans-serif;
 $mejs-container-background-color: $off-black;
 $mejs-container-border: 1px solid $gray-dark;
@@ -23,7 +23,7 @@ $mejs-container-height: 80px;
 $mejs-controls-height: 50px;
 $mejs-controls-margin: 0;
 $mejs-controls-padding: 20px;
-$mejs-controls-position: inherit;
+$mejs-controls-position: relative;
 $mejs-controls-background-gradient: none;
 
 $mejs-controls-elements-font-size: 20px;
@@ -53,3 +53,4 @@ $mejs-controls-time-bubble-width: 100px;
 $mejs-controls-volume-bar-border-radius: 0;
 $mejs-controls-volume-bar-foreground-color: $gray-light;
 $mejs-controls-volume-bar-background-color: $gray;
+

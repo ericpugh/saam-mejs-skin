@@ -182,7 +182,7 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   list-style-type: none;
   margin: 0;
   padding: 20px;
-  position: inherit;
+  position: relative;
   width: 100%;
   z-index: 3;
 }
@@ -704,3 +704,8 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
 }
 
 /* End: Error */
+.mejs__video .mejs__controls {
+  position: absolute !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
