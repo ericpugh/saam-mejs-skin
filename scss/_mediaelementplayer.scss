@@ -25,6 +25,7 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
 
 .mejs__container * {
   box-sizing: border-box;
+  width: 100%;
 }
 
 /* Hide native play button and control bar from iOS to favor plugin button */

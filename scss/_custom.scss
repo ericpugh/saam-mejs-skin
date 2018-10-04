@@ -1,8 +1,13 @@
 // Custom styles
 .mejs__video  {
+  // Create space for the controls.
+  margin-bottom: 50px;
   .mejs__controls {
     position: absolute !important;
     align-items: center !important;
     justify-content: center !important;
+    background-color: $mejs-container-background-color;
+    // Move the controls into the space below the video container.
+    bottom: -50px;
   }
 }
